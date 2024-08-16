@@ -10,7 +10,7 @@
 
 body, html{
     min-height: 100%;
-    background-color: #fffcea;
+    background-color: #BF3131;
     color: #9e6f00 !important;
     font-family: Sarabun;
     font-size: 18px;
@@ -21,9 +21,13 @@ body, html{
     color:rgb(0, 109, 109);
 }
 
+.background-color{
+    background-color: #fffcea;
+}
+
 .borderline{
     background-color: #BF3131;
-    height: 30px;
+    padding: 20px;
 }
 
 /* Navbar */
@@ -67,7 +71,7 @@ body, html{
     min-height: 100vh;
     background-position: center;
     background-attachment: fixed;
-    padding-top: 35vh;
+    padding-top: 30vh;
 }
 
 #title{
@@ -139,7 +143,7 @@ body, html{
 }
 
 #img-carousel{
-    margin: 80px 0;
+    padding: 80px 0;
 }
 
 .carousel-indicators button{
@@ -193,7 +197,7 @@ tbody{
 
 /* About Us Section */
 .info-section{
-    margin-top: 80px;
+    padding-top: 80px;
 }
 
 #store{
