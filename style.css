@@ -1,0 +1,309 @@
+@font-face {
+    font-family: Sarabun;
+    src: url(assets/Sarabun-Regular.ttf);
+}
+
+@font-face {
+    font-family: LilitaOne;
+    src: url(assets/LilitaOne-Regular.ttf);
+}
+
+body, html{
+    min-height: 100%;
+    background-color: #fffcea;
+    color: #9e6f00 !important;
+    font-family: Sarabun;
+    font-size: 18px;
+}
+
+::selection{
+    background-color: rgb(65, 243, 243);
+    color:rgb(0, 109, 109);
+}
+
+.borderline{
+    background-color: #BF3131;
+    height: 30px;
+}
+
+/* Navbar */
+.navbar{
+    background-color: #7D0A0A!important;
+}
+
+.nav-link{
+    color: #EAD196;
+}
+
+.nav-link:hover{  /* Media Query */
+    color: white;
+}
+
+.navbar-brand{
+    color: #EAD196;
+    font-family: LilitaOne;
+}
+
+.navbar-brand:hover{  /* Media Query */
+    color: white;
+}
+
+#language-button{
+    background-color: #7D0A0A;
+    border-color: #EAD196;
+    color: #EAD196;
+}
+
+#language-button:hover{  /* Media Query */
+    background-color: #EAD196;
+    border-color: #EAD196;
+    color: #7D0A0A;
+}
+
+/* Hero Section */
+#hero-section{
+    background-image: linear-gradient(rgb(0,0,0, 0.7), rgb(0,0,0, 0.3)), url("assets/hero-img.jpg");
+    width: 100%;
+    min-height: 100vh;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#title{
+    text-align: center;
+    padding-top: 350px;
+    color: #BF3131;
+    text-shadow: black 2px 2px 2px;
+    font-family: LilitaOne;
+}
+
+#title-hr{
+    color: #EAD196;
+    width: 300px;
+    text-align: center;
+    margin: 40px auto;
+    border-width: 10px;
+    opacity: 1.0;
+}
+
+/* Products Section */
+#slogan-banner{
+    background-color: #BF3131;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    color: #EAD196; 
+}
+
+.circle{
+    text-align: center !important;
+    color: #7D0A0A;
+    font-family: LilitaOne;
+}
+
+.circle-hr{
+    border-width: 5px;
+    width: 100px;
+    margin: 15px auto;
+    opacity: 1.0;
+    color:#BF3131;
+}
+
+.circle-img{
+    margin-top: 100px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 10px;
+    border-color:#EAD196;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 15px;
+    transition: width 0.3s, height 0.3s;
+}
+
+.circle-img:hover{ /* Media Query */
+    width: 225px;
+    height: 225px;
+}
+
+/* Slideshow */
+.carousel-item{
+    border-style: solid;
+    border-color: #EAD196;
+    border-width: 15px;
+}
+
+#slideshow-caption{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#img-carousel{
+    margin: 80px 0;
+}
+
+.carousel-indicators button{
+    background-color: rgb(255, 255, 255) !important;
+    padding: 2px !important;
+}
+
+.slide-arrow{
+    background-color: black !important;
+}
+
+/* Wifi Section */
+#wifi-section{
+    background-image: linear-gradient(rgb(0,0,0, 0.6), rgb(0,0,0, 0.3)), url("assets/wifi-img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#wifi-section h1{
+    color: #BF3131;
+    padding-top: 50px;
+    text-shadow: black 2px 2px 2px;
+    font-family: LilitaOne;
+}
+
+.price-table{
+    font-size: 20px;
+    margin: auto;
+    color: #7D0A0A;
+}
+
+.price-table th, td{
+    padding: 15px;
+    border: 2px solid #9e6f00;
+}
+
+thead{
+    background-color: rgb(234, 209, 150, 0.8);
+    color: #7D0A0A;
+}
+
+tbody{
+    background-color: rgb(255, 252, 234, 0.8);
+    color: #9e6f00;
+    text-shadow: 0.6px 0.6px #573d00;
+}
+
+/* About Us Section */
+.info-section{
+    margin-top: 80px;
+}
+
+#store{
+    border-style:solid;
+    border-color: #EAD196;
+    border-width: 10px;
+}
+
+#history-hr{
+    opacity: 1.0;
+    color:#BF3131;
+    width: 100px;
+    border-width: 5px;
+    margin: 20px 0;
+}
+
+#history-title{
+    color: #7D0A0A;
+    font-family: LilitaOne;
+}
+
+#schedule{
+    color:#7D0A0A;
+    font-weight: bold;
+}
+
+/* Footer & Contact Section */
+#facebook-section{
+    margin-top: 60px;
+    text-align: center;
+    padding: 20px;
+}
+
+#facebook-button{
+    background-color: #BF3131;
+    color: #F3EDC8;
+    border-color: #BF3131;
+}
+
+#facebook-button:hover{  /* Media Query */
+    background-color: #F3EDC8;
+    color: #BF3131;
+    border-width: 3px;
+}
+
+#facebook-section i{
+    font-size: 60px;
+}
+
+footer{
+    text-align: center;
+    color: #EAD196;
+    background-color: #7D0A0A;
+    padding: 15px 0;
+}
+
+#copyright{
+    font-size: 20px;
+    padding-top: 12px;
+}
+
+#product-target, #wifi-target, #history-target{
+    position: relative;
+    top: -100px;
+}
+
+/* Media Queries */
+@media (orientation: portrait), (not (hover:hover)), ((max-width: 992px) and (orientation: landscape)){
+    .circle-img:hover{
+        width: 200px;
+        height: 200px;
+    }
+
+    .navbar-brand:hover{
+        color: #EAD196;
+    }
+
+    .navbar-brand:active{
+        color: white;
+    }
+
+    .nav-link:hover{
+        color: #EAD196;
+    }
+
+    .nav-link:active{
+        color: white;
+    }
+
+    #language-button:hover{
+        background-color: #7D0A0A;
+        color:#EAD196;
+        border-color: #EAD196;
+    }
+
+    #language-button:active{
+        background-color: #EAD196;
+        border-color: #EAD196;
+        color: #7D0A0A;
+    }
+
+    #facebook-button:hover{
+        background-color: #BF3131;
+        color: #F3EDC8;
+        border-color: #BF3131;
+    }
+    
+    #facebook-button:active{
+        background-color: #F3EDC8;
+        color: #BF3131;
+        border-width: 3px;
+    }
+}

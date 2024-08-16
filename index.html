@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lisbo Sari-Sari Store</title>
+    <link rel="icon" type="image/x-icon" href="assets/flag-logo.png">
+    <meta name="author" content="Sevilla Smith">
+
+    <!-- CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"\
+     rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary fixed-top" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#hero-section">
+            <img src="assets/flag-logo.png" alt="Logo"\
+            width="24" height="24" class="d-inline-block align-text-top">
+            Lisbo Sari-Sari Store
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"\
+          data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"\
+          aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link" href="#product-target" id="product-link">Products</a>
+              <a class="nav-link" href="#wifi-target">Wifi</a>
+              <a class="nav-link" href="#history-target" id="history-link">About Us</a>
+              <button id="language-button" type="button"\
+              class="btn btn-primary" onclick="changeLanguage();">I-click para sa Tagalog</button>
+            </div>
+          </div>
+        </div>
+    </nav>
+
+    <!-- Hero-Image -->
+    <header id="hero-section">
+        <h1 id="title" class="display-1">Welcome to the<br>Lisbo Sari-Sari Store</h1>
+        <hr id="title-hr">
+    </header>
+
+    <!-- Products Section -->
+    <div id="product-target"></div>
+    <div id="slogan-banner">
+      <h1>Check out our store!</h1>
+      <h5>From canned food to sweets, drinks, pantry staples, chilled ice, 
+        and school supplies, we offer a diverse selection for your everyday needs!
+      </h5>
+    </div>
+
+    <!-- Circle Images -->
+     <section class="container">
+      <div class="row">
+        <div class="col-lg-3 col-sm-6 circle">
+          <img class="circle-img" src="assets/circle-img-1.jpg" alt="food">
+          <h1 id="food-title">Food</h1>
+          <hr class="circle-hr">
+        </div>
+        <div class="col-lg-3 col-sm-6 circle">
+          <img class="circle-img" src="assets/circle-img-2.jpg" alt="snacks">
+          <h1 id="snacks-title">Snacks</h1>
+          <hr class="circle-hr">
+        </div>
+        <div class="col-lg-3 col-sm-6 circle">
+          <img class="circle-img" src="assets/circle-img-3.jpg" alt="beverages">
+          <h1 id="beverages-title">Beverages</h1>
+          <hr class="circle-hr">
+        </div>
+        <div class="col-lg-3 col-sm-6 circle">
+          <img class="circle-img" src="assets/circle-img-4.jpg" alt="supplies">
+          <h1 id="supplies-title">Supplies</h1>
+          <hr class="circle-hr">
+        </div>
+      </div>
+
+      <!-- Slideshow -->
+      <div class="row" id="img-carousel">
+        <div id="carouselExampleIndicators" class="carousel slide col-12">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators"\
+            data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" \
+            data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" \
+            data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" \
+            data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" \
+            data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" \
+            data-bs-slide-to="5" aria-label="Slide 6"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" \
+            data-bs-slide-to="6" aria-label="Slide 7"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" \
+            data-bs-slide-to="7" aria-label="Slide 8"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" \
+            data-bs-slide-to="8" aria-label="Slide 9"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" \
+            data-bs-slide-to="9" aria-label="Slide 10"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" \
+            data-bs-slide-to="10" aria-label="Slide 11"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" \
+            data-bs-slide-to="11" aria-label="Slide 12"></button>
+          </div>
+          <div class="carousel-inner">
+            
+            <div class="carousel-item active">
+              <img src="assets/carousel-img-1.jpg" \
+              class="d-block w-100" alt="lisbo sari-sari store products">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/carousel-img-2.jpg" \
+              class="d-block w-100" alt="lisbo sari-sari store products">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/carousel-img-3.jpg" \
+              class="d-block w-100" alt="lisbo sari-sari store products">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/carousel-img-4.jpg" \
+              class="d-block w-100" alt="lisbo sari-sari store products">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/carousel-img-5.jpg" \
+              class="d-block w-100" alt="lisbo sari-sari store products">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/carousel-img-6.jpg" \
+              class="d-block w-100" alt="lisbo sari-sari store products">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/carousel-img-7.jpg" \
+              class="d-block w-100" alt="lisbo sari-sari store products">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/carousel-img-8.jpg" \
+              class="d-block w-100" alt="lisbo sari-sari store products">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/carousel-img-9.jpg" \
+              class="d-block w-100" alt="lisbo sari-sari store products">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/carousel-img-10.jpg" \
+              class="d-block w-100" alt="lisbo sari-sari store products">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/carousel-img-11.jpg" \
+              class="d-block w-100" alt="lisbo sari-sari store products">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/carousel-img-12.jpg" class="d-block w-100" alt="store sign">
+            </div>
+          </div>
+          <button  class="carousel-control-prev" type="button"
+          data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon slide-arrow" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button  class="carousel-control-next" type="button" \
+          data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon slide-arrow" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+     </section>
+
+     <!-- Wifi Section -->
+     <div id="wifi-target"></div>
+     <div class="container-fluid borderline"></div>
+     <section class="container-fluid" id="wifi-section">
+       <div class="container">
+         <div class="row">
+           <div class="col-12">
+             <h1 class="display-1" id="wifi-title">
+              Need Internet Connection?<br>Try Nai-Nai Piso Wifi!
+            </h1>
+           </div>
+         </div>
+         <div class="row">
+           
+           <div class="col-12">
+             <table class="price-table">
+              <thead>
+                <tr>
+                  <th colspan="3">
+                    <i class="bi bi-globe2"></i> <span id="steps-title">
+                    Steps to connect</span> <i class="bi bi-globe2"></i>
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td id="steps" colspan="3">
+                    • Press insert money button<br>• Insert your money
+                    <br>• Once done, press connect to internet button
+                  </td>
+                </tr>
+              </tbody>
+              <thead>
+                <tr>
+                  <th colspan="3" id="wifi-rate">Wifi Rate</th>
+                </tr>
+                
+                <tr>
+                  <th id="price">Price</th>
+                  <th id="time">Time</th>
+                  <th id="pause">Pause</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>₱ 1</td>
+                  <td>12 <span id="12-minute">minutes</span></td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <td>₱ 5</td>
+                  <td>1 <span id="1-hour">hour</span> 30 <span id="30-minute">minutes</span></td>
+                  <td>1</td>
+                </tr>
+                <tr>
+                  <td>₱ 10</td>
+                  <td>4 <span id="4-hour">hours</span></td>
+                  <td>3</td>
+                </tr>
+                <tr>
+                  <td>₱ 20</td>
+                  <td>12 <span id="12-hour">hours</span></td>
+                  <td>4</td>
+                </tr>
+                <tr>
+                  <td>₱ 30</td>
+                  <td>1 <span id="1-day">day</span></td>
+                  <td>5</td>
+                </tr>
+                <tr>
+                  <td>₱ 50</td>
+                  <td>5 <span id="5-day">days</span></td>
+                  <td>6</td>
+                </tr>
+              </tbody>
+              <thead>
+                <tr>
+                  <th colspan="3" id="voucher">Voucher Wifi Rate</th>
+                </tr>
+                <tr>
+                  <th id="v-price">Price</th>
+                  <th id="v-time">Time</th>
+                  <th id="v-pause">Pause</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>₱ 20</td>
+                  <td>6 <span id="6-hour">hours</span></td>
+                  <td>2</td>
+                </tr>
+                <tr>
+                  <td>₱ 30</td>
+                  <td>12 <span id="12-vhour">hours</span></td>
+                  <td>2</td>
+                </tr>
+                <tr>
+                  <td>₱ 60</td>
+                  <td>1 <span id="1-vday">day</span></td>
+                  <td>3</td>
+                </tr>
+              </tbody>
+             </table>    
+           </div>
+         </div>
+       </div>
+     </section>
+     
+      <!-- About Us Section -->
+    <div id="history-target"></div>
+    <div class="container-fluid borderline"></div>
+    <section class="container">
+      <div class="row info-section">
+        <div class="clearfix">
+          <img src="assets/store.jpg" id="store" \
+          class="col-md-6 float-md-end mb-3 ms-md-3 img-fluid" alt="store building">
+
+          <h1 id="history-title">Our History</h1>
+          
+          <p id="history-1">
+            The store's history began in the early 20th century as a tiny Sari-Sari
+            store. Our mother would travel to the mainland and became acquainted with
+            someone who owned a grocery store. She then began to (Alsada) the products
+            and sell them back home to make a modest profit. This store is where we grew
+            up alongside our mother as she balanced being a full-time mom, working outside
+            the home in farming jobs, and managing the Sari-Sari store.
+          </p>
+          <p id="history-2">
+            Over the years, the store was often on and off due to financial struggles until
+            all her children grew up and moved to different places to find better opportunities.
+            Our mother decided to close the Sari-Sari store temporarily to help her children in
+            the city by doing household chores, giving them more time to study while working.
+            Once all her children had their own families and lives, she decided to reopen the
+            store with their help. Her perseverance, determination, and hard work built
+            the Lisbo Sari-Sari store we have today!
+          </p>
+          <hr id="history-hr">
+          <p id="schedule">
+            <i class="bi bi-clock-fill"></i> Buisness Hours: Open Daily • 7am - 8pm<br>
+            <i class="bi bi-geo-alt-fill"></i> Location: Brgy. Tamulalod, Dumarao, Capiz
+          </p>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Facebook Section -->
+    <div id="facebook-section">
+      <a id="facebook-button" class="btn btn-primary"\
+      href="https://www.facebook.com/profile.php?id=61550550566237" role="button">
+        <h1><i class="bi bi-facebook"></i> <span id="follow-us">Follow our Facebook Page!</span></h1>
+      </a>
+    </div>
+
+      <!-- Footer / Copyright Symbol -->
+    <footer>
+      <p id="copyright">&copy 2024 Lisbo Sari-Sari Store</p>
+    </footer>
+
+    <!-- Javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"\
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
