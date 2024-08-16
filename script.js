@@ -1,7 +1,6 @@
 let languageStatus = "english";
 
 function changeLanguage() {
-    
     // Call all the html elements that contain text
     let langButton = document.getElementById("language-button");
     let productLink = document.getElementById("product-link");
@@ -48,10 +47,10 @@ function changeLanguage() {
         productLink.innerHTML = "Mga produkto";
         historyLink.innerHTML = "Tungkol sa Amin";
 
-        // Hero-image Text
+        // Hero-Image Text
         heroTitle.innerHTML = "Maligayang pagdating sa<br>Lisbo Sari-Sari Store";
 
-        // Slogan-banner Text
+        // Slogan-Banner Text
         slogan.innerHTML = "";
         const slogan_h1 = document.createElement("h1");
         const slogan_h5 = document.createElement("h5");
@@ -64,13 +63,13 @@ function changeLanguage() {
         slogan.appendChild(slogan_h1);
         slogan.appendChild(slogan_h5);
 
-        // Circle-image Text
+        // Circle-Image Text
         foodTitle.innerHTML = "Pagkain";
         snacksTitle.innerHTML = "Meryenda";
         beveragesTitle.innerHTML = "Inumin";
         suppliesTitle.innerHTML = "Bagay";
 
-        // Wifi table text
+        // Wifi Table Text
         wifiTitle.innerHTML = "Kailangan ng Koneksyon sa Internet?<br>\
         Subukan ang Nai-Nai Piso Wifi!";
         stepsTitle.innerHTML = "Mga hakbang upang kumonekta";
@@ -95,7 +94,7 @@ function changeLanguage() {
         twelveVhours.innerHTML = "oras";
         oneVday.innerHTML = "araw";
         
-        // About Us text
+        // About Us Text
         historyTitle.innerHTML = "Ang ating Kasaysayan";
         historyOne.innerHTML = "Nagsimula ang kasaysayan ng tindahan noong unang \
         bahagi ng ika-20 siglo bilang isang maliit na tindahan ng Sari-Sari. Ang \
@@ -118,7 +117,7 @@ function changeLanguage() {
         schedule.innerHTML = '<i class="bi bi-clock-fill"></i> Mga Oras ng Negosyo: Bukas Araw-araw • 7am - 8pm\
         <br><i class="bi bi-geo-alt-fill"></i> Lokasyon: Brgy. Tamulalod, Dumarao, Capiz';
 
-        // Follow our Facebook text
+        // Follow our Facebook Text
         followUs.innerHTML = "Sundan ang aming Facebook Page!";
         
     } else if (languageStatus === "tagalog") {
@@ -129,10 +128,10 @@ function changeLanguage() {
         productLink.innerHTML = "Products";
         historyLink.innerHTML = "About Us";
 
-        // Hero-image Text
+        // Hero-Image Text
         heroTitle.innerHTML = "Welcome to the<br>Lisbo Sari-Sari Store";
 
-        // Slogan-banner Text
+        // Slogan-Banner Text
         slogan.innerHTML = "";
         const slogan_h1 = document.createElement("h1");
         const slogan_h5 = document.createElement("h5");
@@ -145,13 +144,13 @@ function changeLanguage() {
         slogan.appendChild(slogan_h1);
         slogan.appendChild(slogan_h5);
 
-        //Circle-image text
+        //Circle-Image Text
         foodTitle.innerHTML = "Food";
         snacksTitle.innerHTML = "Snacks";
         beveragesTitle.innerHTML = "Beverages";
         suppliesTitle.innerHTML = "Supplies";
 
-        // Wifi table text
+        // Wifi Table Text
         wifiTitle.innerHTML = "Need Internet Connection?<br>Try Nai-Nai Piso Wifi!";
         stepsTitle.innerHTML = "Steps to Connect";
         steps.innerHTML = "• Press insert money button\
@@ -175,7 +174,7 @@ function changeLanguage() {
         twelveVhours.innerHTML = "hours";
         oneVday.innerHTML = "day";
 
-        // About Us text
+        // About Us Text
         historyTitle.innerHTML = "Our history";
         historyOne.innerHTML = "The store's history began in the early 20th century \
         as a tiny Sari-Sari store. Our mother would travel to the mainland and became \
@@ -195,7 +194,7 @@ function changeLanguage() {
         schedule.innerHTML = '<i class="bi bi-clock-fill"></i> Buisness Hours: Open Daily • 7am - 8pm\
         <br><i class="bi bi-geo-alt-fill"></i> Location: Brgy. Tamulalod, Dumarao, Capiz';
 
-        // Follow Our Facebook
+        // Follow Our Facebook Text
         followUs.innerHTML = "Follow our Facebook Page!";
     }
 }
