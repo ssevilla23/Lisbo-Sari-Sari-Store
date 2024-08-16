@@ -67,11 +67,11 @@ body, html{
     min-height: 100vh;
     background-position: center;
     background-attachment: fixed;
+    padding-top: 35vh;
 }
 
 #title{
     text-align: center;
-    padding-top: 350px;
     color: #BF3131;
     text-shadow: black 2px 2px 2px;
     font-family: LilitaOne;
